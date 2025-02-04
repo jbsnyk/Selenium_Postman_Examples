@@ -1,0 +1,181 @@
+{
+  "id": "908556a1-77da-43c5-a986-435f09ebfe8c",
+  "version": "2.0",
+  "name": "Probely",
+  "url": "https://www.patchmutual.com",
+  "tests": [{
+    "id": "3ebe9588-8550-4363-9827-e8ba8b7349bd",
+    "name": "Untitled",
+    "commands": [{
+      "id": "03cbaffa-9fb8-47bc-ae9a-3b624ccfc9da",
+      "comment": "",
+      "command": "open",
+      "target": "/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fc7aeda-adff-4626-823e-34fa44e7fae8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1512x870",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "459306fa-22d1-4287-8f2f-efd10db7e4f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=font",
+      "targets": [
+        ["css=font", "css:finder"],
+        ["xpath=//a[@id='LoginLink']/font", "xpath:idRelative"],
+        ["xpath=//font", "xpath:position"],
+        ["xpath=//font[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ff76fd4-129e-4ee6-9c8a-0253a48d7af3",
+      "comment": "",
+      "command": "type",
+      "target": "id=uid",
+      "targets": [
+        ["id=uid", "id"],
+        ["name=uid", "name"],
+        ["css=#uid", "css:finder"],
+        ["xpath=//input[@id='uid']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/form/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "jsmith"
+    }, {
+      "id": "ec6285bd-4b61-4a54-a4f6-f79cfd869116",
+      "comment": "",
+      "command": "click",
+      "target": "id=passw",
+      "targets": [
+        ["id=passw", "id"],
+        ["name=passw", "name"],
+        ["css=#passw", "css:finder"],
+        ["xpath=//input[@id='passw']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "071d0639-f222-446e-abbe-8d0329c873b9",
+      "comment": "",
+      "command": "type",
+      "target": "id=passw",
+      "targets": [
+        ["id=passw", "id"],
+        ["name=passw", "name"],
+        ["css=#passw", "css:finder"],
+        ["xpath=//input[@id='passw']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "demo1234"
+    }, {
+      "id": "f5902f90-bfad-49b9-b970-ed7130ad58ba",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnSubmit",
+      "targets": [
+        ["name=btnSubmit", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='btnSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c7e5b1a-4cb7-4d58-bf52-347f12f8e6ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=MenuHyperLink3",
+      "targets": [
+        ["id=MenuHyperLink3", "id"],
+        ["linkText=Transfer Funds", "linkText"],
+        ["css=#MenuHyperLink3", "css:finder"],
+        ["xpath=//a[contains(text(),'Transfer Funds')]", "xpath:link"],
+        ["xpath=//a[@id='MenuHyperLink3']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/bank/transfer.jsp')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Transfer Funds')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd688442-8b49-4f83-8d28-c2553afe770e",
+      "comment": "",
+      "command": "click",
+      "target": "id=toAccount",
+      "targets": [
+        ["id=toAccount", "id"],
+        ["name=toAccount", "name"],
+        ["css=#toAccount", "css:finder"],
+        ["xpath=//select[@id='toAccount']", "xpath:attributes"],
+        ["xpath=//form[@id='tForm']/table/tbody/tr[2]/td[2]/select", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6c7b54-3a95-4944-808d-c8537795a493",
+      "comment": "",
+      "command": "select",
+      "target": "id=toAccount",
+      "targets": [],
+      "value": "label=800003 Checking"
+    }, {
+      "id": "9e2eac39-9546-4e9e-8a08-b8e4f9fdba9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=transferAmount",
+      "targets": [
+        ["id=transferAmount", "id"],
+        ["name=transferAmount", "name"],
+        ["css=#transferAmount", "css:finder"],
+        ["xpath=//input[@id='transferAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='tForm']/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0173d993-874f-45fd-b530-5733dbc52448",
+      "comment": "",
+      "command": "type",
+      "target": "id=transferAmount",
+      "targets": [
+        ["id=transferAmount", "id"],
+        ["name=transferAmount", "name"],
+        ["css=#transferAmount", "css:finder"],
+        ["xpath=//input[@id='transferAmount']", "xpath:attributes"],
+        ["xpath=//form[@id='tForm']/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "5992dee8-ced3-407f-92f1-930b43a8d299",
+      "comment": "",
+      "command": "click",
+      "target": "id=transfer",
+      "targets": [
+        ["id=transfer", "id"],
+        ["name=transfer", "name"],
+        ["css=#transfer", "css:finder"],
+        ["xpath=//input[@id='transfer']", "xpath:attributes"],
+        ["xpath=//form[@id='tForm']/table/tbody/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3baadc69-236e-4fde-8f25-cc91158fc535",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3ebe9588-8550-4363-9827-e8ba8b7349bd"]
+  }],
+  "urls": ["https://www.patchmutual.com/"],
+  "plugins": []
+}
